@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Certificates</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f6f8;
+      color: #333;
+    }
+
+    .container {
+      max-width: 115px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+
+    header {
+      margin-bottom: 30px;
+    }
+
+    header h1 {
+      font-size: 36px;
+      margin: 0;
+    }
+
+    header p {
+      color: #666;
+      margin-top: 8px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      overflow: hidden;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+    }
+
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      background: #eee;
+    }
+
+    .card-content {
+      padding: 15px;
+    }
+
+    .card-title {
+      font-size: 18px;
+      font-weight: bold;
+      margin: 0;
+    }
+
+    .card-sub {
+      font-size: 14px;
+      color: #666;
+      margin-top: 5px;
+    }
+
+    .card-date {
+      font-size: 12px;
+      color: #999;
+      margin-top: 8px;
+    }
+
+    .empty {
+      text-align: center;
+      margin-top: 40px;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+
+    <header>
+  <h1>Marimar</h1>
+  <nav>
+    <a href="Marimar.html">About</a>
+    <a href="#services">Services</a>
+    <a href="#experience">Experience</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+    <a href="certificate.html">Certificates</a>
+
+  </nav>
+</header>
+
+  <div class="container">
+   
+
+    <div class="grid">
+      
+      <!-- Certificate Card -->
+      <div class="card">
+        <img src="assets/certificate1.png" alt="Certificate 1" />
+        <div class="card-content">
+          <p class="card-title">Subject Matter Expert</p>
+          <p class="card-sub">Issued by Grata/OBI</p>
+          <p class="card-date">Date: 12/16/2025</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="assets/certificate2.png" alt="Certificate 2" />
+        <div class="card-content">
+          <p class="card-title">Subject Matter Expert</p>
+          <p class="card-sub">Issued by Grata(MergerLink)/OBI</p>
+          <p class="card-date">Date: 12/16/2025</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="empty">
+      More certificates coming soon...
+    </div>
+
+  </div>
+
+</body>
+</html>
